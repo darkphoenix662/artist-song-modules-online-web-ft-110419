@@ -3,7 +3,8 @@ module Memorable
     
   end
   
-  def count
-    
+  def self.count
+    self.all.count
   end
+  
 end
