@@ -1,5 +1,4 @@
 require 'pry'
-require_relative './config.memorable.rb'
 
 class Song
   extend Memorable::ClassMethods
